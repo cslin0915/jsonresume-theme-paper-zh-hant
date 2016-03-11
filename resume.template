@@ -45,26 +45,26 @@
 			      <section class="content">
 			        <div class="row">
 			          <div class="content-cat">
-			           Contact
+			           聯絡資訊
 			          </div>
 			          <div class="content-text">
 			          	{{#if website}}
 				            <ul>
-				              <li>Website</li>
+				              <li>個人網站</li>
 				              <li>{{website}}</li>
 				            </ul>
 			            {{/if}}
 
 			            {{#if email}}
 				            <ul>
-				              <li>Email</li>
+				              <li>電子信箱</li>
 				              <li>{{email}}</li>
 				            </ul>
 			            {{/if}}
 
 			            {{#if phone}}
 				            <ul>
-				              <li>Phone</li>
+				              <li>聯絡電話</li>
 				              <li>{{phone}}</li>
 				            </ul>
 			            {{/if}}
@@ -78,13 +78,13 @@
 					      <section class="content">
 					        <div class="row">
 					          <div class="content-cat">
-					           Location
+					           居住位置
 					          </div>
 					          <div class="content-text">
 
 					          	{{#if address}}
 						            <ul>
-						              <li>Address</li>
+						              <li>地址</li>
 						              <li>{{address}}</li>
 						            </ul>
 					            {{/if}}
@@ -92,7 +92,7 @@
 					            {{#if city}}
 					            	{{#if postalCode}}
 							            <ul>
-							              <li>Postal Code & City</li>
+							              <li>郵遞區號 & 城市</li>
 							              <li>{{postalCode}} {{city}}</li>
 							            </ul>
 						            {{/if}}
@@ -100,7 +100,7 @@
 
 					            {{#if region}}
 						            <ul>
-						              <li>Region</li>
+						              <li>地區</li>
 						              <li>{{region}}</li>
 						            </ul>
 											{{/if}}
@@ -118,7 +118,7 @@
 			      <section class="content">
 			        <div class="row">
 			          <div class="content-cat">
-			           Languages
+			           語言能力
 			          </div>
 			          <div class="content-text">
 
@@ -147,7 +147,7 @@
 				      <section class="content profiles">
 				        <div class="row">
 				          <div class="content-cat">
-				           Profiles
+				           個人檔案
 				          </div>
 				          <div class="content-text profiles-listing">
 				            <ul>
@@ -177,12 +177,12 @@
 			        <div class="row">
 			          <div class="content-cat big-text">
 			          	{{#if $first}}
-											Work	Experience
+											工作經驗
 			          	{{/if}}
 			          
 								 {{#if startDate}}
 										{{#if endDate}}
-			            		<p>{{startDate}} till {{endDate}}</p>
+			            		<p>{{startDate}} 至 {{endDate}}</p>
 			            	{{/if}}
 									{{/if}}
 
@@ -195,9 +195,9 @@
 					            <p>
 					          {{/if}}
 					            	{{#if website}}
-													<strong>{{position}}</strong> at <strong><a href="{{website}}">{{company}}:</a></strong>
+													<strong>{{position}}</strong> 於 <strong><a href="{{website}}">{{company}}:</a></strong>
 												{{else}}
-					            		<strong>{{position}}</strong> at <strong>{{company}}:</strong>
+					            		<strong>{{position}}</strong> 於 <strong>{{company}}:</strong>
 					            	{{/if}}
 					            </p>
 										{{/ifCond}}
@@ -230,7 +230,7 @@
 				          
 									{{#if startDate}}
 											{{#if endDate}}
-				            		<p>{{startDate}} till {{endDate}}</p>
+				            		<p>{{startDate}} 至 {{endDate}}</p>
 				            	{{/if}}
 										{{/if}}
 
@@ -266,12 +266,12 @@
 				          <div class="content-cat big-text">
 
 				          	{{#if $first}}
-				            	Education
+				            	教育背景
 										{{/if}}
 
 										{{#if startDate}}
 											{{#if endDate}}
-				            		<p>{{startDate}} till {{endDate}}</p>
+				            		<p>{{startDate}} 至 {{endDate}}</p>
 				            	{{/if}}
 										{{/if}}
 
@@ -308,7 +308,7 @@
 				        <div class="row">
 				          <div class="content-cat big-text">
 				            {{#if $first}}
-				            	Awards
+				            	得獎紀錄
 										{{/if}}
 
 										{{#if title}}
@@ -339,7 +339,7 @@
 			      <section class="content">
 			        <div class="row">
 			          <div class="content-cat">
-			            Skills
+			            技能專長
 			          </div>
 			          <div class="content-text skills-listing">
 			          	{{#foreach resume.skills}}
@@ -371,7 +371,7 @@
 			      <section class="content">
 			        <div class="row">
 			          <div class="content-cat">
-			            Interests
+			            興趣愛好
 			          </div>
 			          <div class="content-text skills-listing">
 			          	{{#foreach resume.interests}}
