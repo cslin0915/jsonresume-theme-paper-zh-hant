@@ -1,17 +1,17 @@
 {
-  "name": "jsonresume-theme-paper",
-  "version": "0.3.2",
-  "description": "A theme for JSON Resume",
-  "author": "Tim Daubenschütz",
+  "name": "jsonresume-theme-paper-zh-hant",
+  "version": "1.0.0",
+  "description": "Fork of Paper theme for jsonresume in Chinese",
+  "author": "Chih-Sheng Lin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TimDaub/jsonresume-theme-paper"
+    "url": "https://github.com/cslin0915/jsonresume-theme-paper-zh-hant"
   },
   "license": "MIT",
   "dependencies": {
     "handlebars": "^2.0.0-alpha.4"
   },
-  "homepage": "https://github.com/TimDaub/jsonresume-theme-paper",
+  "homepage": "https://github.com/cslin0915/jsonresume-theme-paper-zh-hant",
   "main": "index.js",
   "scripts": {
     "start": "resume serve"
@@ -20,6 +20,7 @@
   "keywords": [
     "jsonresume",
     "json",
-    "resume"
+    "resume",
+    "paper_fork"
   ]
 }
